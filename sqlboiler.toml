@@ -1,0 +1,10 @@
+output = "lib/models"
+
+[psql]
+dbname = "go_rest_test"
+host = "127.0.0.1"
+port = 5432
+user = "postgres"
+pass = "postgres"
+sslmode = "disable"
+schema = "public"
